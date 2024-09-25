@@ -1,0 +1,13 @@
+logging:
+  logging_file_name: 'youtrack_danswer_integration.log'
+  logging_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  logging_date_format: '%Y-%m-%d %H:%M:%S'
+
+danswer:
+  metadata_file_name: '.danswer_metadata'
+  metadata_primary_owners: 'Licel'
+  zip_folder_name: 'youtrack.zip'
+
+youtrack:
+  use_https: true
+  verify_ssl: true

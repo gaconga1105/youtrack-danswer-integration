@@ -1,0 +1,5 @@
+# Python dependencies
+pyyaml
+requests
+bs4
+pandas
